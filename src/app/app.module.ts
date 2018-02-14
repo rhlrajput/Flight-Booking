@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { FlightSearchComponent } from './component/flight-search/flight-search.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FlightSearchComponent
   ],
   imports: [
     BrowserModule,
