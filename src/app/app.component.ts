@@ -8,6 +8,7 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent {
   title = 'Flight Search Engine';
    constructor() {
+    console.log('getting started');
     console.log(VERSION.full); // print 2.4.10-rc.0
   }
 }
